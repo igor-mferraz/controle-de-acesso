@@ -79,7 +79,7 @@ function App() {
           <input {...register('descricao')} id="nome" className="outline-none" type="text" placeholder="Digite uma descrição sobre a visita" />
         </div>
         <button className="p-2 bg-green-600 rounded-md text-white">Enviar</button>
-        <Link className="w-full text-center underline text-sm" to={'/admin/home'}>painel administrativo</Link>
+        <Link className="w-full text-center underline text-sm" to={'/admin/home'}>Painel administrativo</Link>
       </form>
     </div>
   )

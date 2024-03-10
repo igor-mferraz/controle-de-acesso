@@ -5,6 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Sobre from './pages/sobre/index.tsx';
 import HomeAdmin from './pages/admin/home/index.tsx';
+import Login from './pages/login/index.tsx';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <Sobre/>,
+  },
+  {
+    path: "login",
+    element: <Login/>,
   },
   {
     path: "admin",
